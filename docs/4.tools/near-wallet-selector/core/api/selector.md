@@ -111,7 +111,7 @@ selector.store.observable
 
 **Description**
 
-Programmatically access wallets and call their methods. It's advised to use `state.modules` if you only need access to `id`, `type` or `metadata` as it avoids initialising. You can find more information on `Wallet` [here](./wallet.md).
+Programmatically access wallets and call their methods. It's advised to use `state.modules` if you only need access to `id`, `type` or `metadata` as it avoids initializing. You can find more information on `Wallet` [here](./wallet.md).
 
 > Note: This function will throw when calling without an ID and there is no selected wallet.  
 
